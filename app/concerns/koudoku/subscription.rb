@@ -238,6 +238,9 @@ module Koudoku::Subscription
   def payment_succeeded(amount)
   end
 
+  def payment_failed(amount)
+  end
+
   def charge_failed
   end
 
